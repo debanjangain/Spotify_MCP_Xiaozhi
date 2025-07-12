@@ -12,7 +12,7 @@ To run this demo you will need:
 
 ## Usage
 
-Create an app in your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/), set the redirect URI to ` http://localhost:5173/callback` and `http://localhost:5173/callback/` and copy your Client ID. 
+Create an app in your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/), set the redirect URI to ` https://127.0.0.1:5173/callback` and `https://127.0.0.1:5173/callback/` and copy your Client ID. 
 
 Clone the repository, ensure that you are in the `get_user_profile` directory and run:
 
