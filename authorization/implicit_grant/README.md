@@ -17,7 +17,7 @@ Install the app dependencies running:
 
 You will need to register your app and get your own credentials from the [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard).
 
-- Create a new app in the dashboard and add `http://localhost:8080` to the app's redirect URL list.
+- Create a new app in the dashboard and add `https://127.0.0.1:8080` to the app's redirect URL list.
 - Once you have created your app, update the `client_id` and `redirect_uri` in the `public/index.html` file with the values obtained from the app settings in the dashboard.
 
 ## Running the example
@@ -26,4 +26,4 @@ From a console shell:
 
     $ npm start
 
-Then, open `http://localhost:8080` in a browser.
+Then, open `https://127.0.0.1:8080` in a browser.
