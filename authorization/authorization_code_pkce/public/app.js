@@ -18,7 +18,7 @@ const scope = 'user-read-private user-read-email';
 const currentToken = {
   get access_token() { return localStorage.getItem('access_token') || null; },
   get refresh_token() { return localStorage.getItem('refresh_token') || null; },
-  get expires_in() { return localStorage.getItem('refresh_in') || null },
+  get expires_in() { return localStorage.getItem('expires_in') || null },        // was "refresh_in"
   get expires() { return localStorage.getItem('expires') || null },
 
   save: function (response) {
